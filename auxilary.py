@@ -21,5 +21,5 @@ y = k*x
 print(k, dk)
 plt.plot(x,y,'r', linestyle='dashed')
 plt.tight_layout()
-plt.savefig('C:\\Users\\Kārlis\\Videos\\Gyroscope\\EPS\\LinearPlot.eps', format="eps")
+plt.savefig('output', format="eps")
 plt.show()
