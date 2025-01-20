@@ -6,7 +6,7 @@ import glob
 import os
 import re
 
-p=glob.glob(r'C:\Users\Kārlis\Videos\Gyroscope\*')
+p=glob.glob(r'path*')
 for folder in p:
     regexp = re.compile(r'unknown|dont|EPS')
     if regexp.search(folder):
