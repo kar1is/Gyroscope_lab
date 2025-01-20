@@ -59,5 +59,5 @@ for folder in p:
         ax2.plot(x**2,y2, 'b', linestyle='dashed')
         #ax1.plot(x, y3, 'k', linestyle='dashed')
         
-        plt.savefig('C:\\Users\\Kārlis\\Videos\\Gyroscope\\EPS\\' + os.path.basename(folder)+'_quadratic.eps', format="eps")
+        plt.savefig('output' + os.path.basename(folder)+'_quadratic.eps', format="eps")
         plt.show()
